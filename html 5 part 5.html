@@ -1,0 +1,79 @@
+<!--Structure of HTML 5-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>HTML 5 introductions</h1>
+    <br />
+    <hr />
+    <h2>Figure</h2>
+    <figure>
+      <img
+        src="test picture html5.jpg"
+        alt="Photograph of two sea otters
+      floating in water"
+      />
+      <br />
+      <figcaption>pic. &copy; 01 Old view of modern city</figcaption>
+    </figure>
+    <br />
+    <hr />
+    <h2>Form Validation</h2>
+    <form action="http://www.example.com/login" method="POST">
+      <label for="username">Username:</label>
+      <input type="text" name="username" required="required" /><br />
+      <label for="password">Password:</label>
+      <input type="password" name="password" required="required" />
+      <input type="submit" value="Submit" />
+    </form>
+    <br />
+    <hr />
+    <h2>Date Input</h2>
+    <label for="depart">Departure date:</label>
+    <input type="date" name="depart" />
+    <br />
+    <hr />
+    <h2>Search Input</h2>
+    <br />
+    <form action="http://www.example.org/search.php">
+      <p>Search:</p>
+      <input type="search" name="search" placeholder="Enter keyword" />
+      <input type="submit" value="Search" />
+    </form>
+    <br />
+    <hr />
+    <h2>Color Input</h2>
+    <form action="action_page.php">
+      <p>Select your favorite color:</p>
+      <input type="color" name="favcolor" value="#ff0000" />
+      <input type="submit" value="submit" />
+    </form>
+    <br />
+    <hr />
+    <h2>Range Input</h2>
+    <br />
+    <p>Red:</p>
+    <input type="range" name="red" min="0" max="255" step="1" />
+    <p>Green:</p>
+    <input type="range" name="green" min="0" max="255" step="1" />
+    <p>Blue:</p>
+    <input type="range" name="blue" min="0" max="255" step="1" />
+    <br />
+    <hr />
+    <h2>Audio</h2>
+    <br />
+    <audio controls>
+      <source src="test music.mp3" type="audio/mpeg" />
+    </audio>
+    <br />
+    <hr />
+    <h2>Video</h2>
+    <br />
+    <video width="400" controls>
+      <source src="test video.mp4" type="video/mp4" />
+    </video>
+  </body>
+</html>
